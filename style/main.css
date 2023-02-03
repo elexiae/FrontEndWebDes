@@ -1,0 +1,36 @@
+/*-----body-----*/
+body{
+    background-color:rgb(211, 186, 149) ;
+}
+/*-----nav-----*/
+/*---need to work on nav links---*/
+nav{
+    text-align: center;
+}
+/*-----heading-----*/
+h1{
+    text-align: center;
+    font-size: 5.5em;
+    font-family: cursive;
+
+
+}
+h2,h3{
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+
+}
+/*-----paragraph-----*/
+p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+
+}
+.solid{
+    border-style: double;
+}
+/*-----images-----*/
+/*---need to center images---*?

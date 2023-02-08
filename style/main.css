@@ -1,36 +1,70 @@
 /*-----body-----*/
 body{
-    background-color:rgb(211, 186, 149) ;
+    background-color:rgb(220, 197, 164) ;
 }
+
 /*-----nav-----*/
-/*---need to work on nav links---*/
-nav{
-    text-align: center;
+.navbar{
+    overflow: hidden;
+    background-color:rgba(173, 145, 96, 0.778);
+    width: 395.5px;
+    margin: auto;
 }
+.navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+.navbar a:hover{
+    background-color: bisque;
+}
+
 /*-----heading-----*/
+.headings{
+    overflow: hidden; 
+    background-color:rgba(173, 145, 96, 0.778);
+    margin: auto;
+}
+
 h1{
     text-align: center;
     font-size: 5.5em;
     font-family: cursive;
-
-
 }
+ 
 h2,h3{
     text-align: center;
     font-size: 3em;
     font-family: cursive;
 
 }
+
 /*-----paragraph-----*/
 p{
     text-align: center;
     font-size: 1.5em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 
-
 }
 .solid{
     border-style: double;
+    background-color: rgba(173, 145, 96, 0.778);
+    padding: 15px;
+    width: auto;
 }
+
 /*-----images-----*/
-/*---need to center images---*/
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---need to center images---*?

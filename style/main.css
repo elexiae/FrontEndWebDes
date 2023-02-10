@@ -7,15 +7,15 @@ body{
 .navbar{
     overflow: hidden;
     background-color:rgba(173, 145, 96, 0.778);
-    width: 395.5px;
-    margin: auto;
+    width: auto;
+    margin: 5% 10%;
 }
 .navbar a{
     float: left;
     display: block;
     color: black;
     text-align: center;
-    padding: 15px 25px;
+    padding: 1.5%;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
@@ -28,7 +28,8 @@ body{
 .headings{
     overflow: hidden; 
     background-color:rgba(173, 145, 96, 0.778);
-    margin: auto;
+    margin: 15%;
+    width: auto;
 }
 
 h1{
@@ -54,8 +55,9 @@ p{
 .solid{
     border-style: double;
     background-color: rgba(173, 145, 96, 0.778);
-    padding: 15px;
+    padding: 1.5%;
     width: auto;
+    margin: 10%;
 }
 
 /*-----images-----*/

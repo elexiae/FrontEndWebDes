@@ -6,7 +6,7 @@
 
 /*-----body-----*/
 body{
-    background-image: url('../assets/small\ head_\ fautrier-1956.jpg');
+    background-image: url('../assets/evanescence_georgesmathieu-1945-background.jpg');
     background-repeat: repeat-y;
     background-position: center;
     background-size: contain;
@@ -16,7 +16,7 @@ body{
 /*-----nav-----*/
 .navbar{
     overflow: hidden;
-    background-color:rgba(173, 145, 96, 0.778);
+    background-color:rgb(170, 148, 110);
     width: auto;
     margin: 5% 10%;
 }
@@ -36,9 +36,9 @@ body{
 
 /*-----heading-----*/
 .headings{
-    overflow: hidden; 
-    background-color:rgba(173, 145, 96, 0.778);
-    margin: 10% 25%;
+    border-style: hidden;
+    background-color:rgb(170, 148, 110);
+    margin: auto;
     width: auto;
 }
 
@@ -68,7 +68,7 @@ p{
 }
 .solid{
     border-style: double;
-    background-color: rgba(173, 145, 96, 0.778);
+    background-color: rgb(173, 145, 96);
     padding: 1.5%;
     width: auto;
     margin: 5%;
@@ -76,12 +76,11 @@ p{
 
 /*-----images-----*/
 /*---need to center images---*/
-img{
+/*--adjust the images individually--*/
+.img{
     max-width: 100%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*----layout----*/

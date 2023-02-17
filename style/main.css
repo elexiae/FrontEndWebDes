@@ -1,66 +1,67 @@
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/*-----body-----*/
+ /*-----body-----*/
 body{
     background-image: url('../assets/evanescence_georgesmathieu-1945-background.jpg');
     background-repeat: repeat-y;
     background-position: center;
     background-size: contain;
-    /*--need to work on--*/
+    
 }
 
 /*-----nav-----*/
 .navbar{
     overflow: hidden;
-    background-color:rgb(170, 148, 110);
+    background-color:rgba(141, 106, 61, 0.832);
     width: auto;
-    margin: 5% 10%;
+    margin-bottom: 2%;
 }
 .navbar a{
     float: left;
     display: block;
-    color: black;
+    color: rgb(16, 7, 7);
     text-align: center;
     padding: 1.5%;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  cursive;
     font-size: 1.5em;
 }
 .navbar a:hover{
     background-color: bisque;
 }
 
-/*-----heading-----*/
-.headings{
-    border-style: hidden;
-    background-color:rgb(170, 148, 110);
+/*-----all the headings-----*/
+.subheadings{
+    border-style: double;
+    background-color: rgba(171, 150, 32, 0.899);
+    /*---margin adjustments for subheading spacing---*/
     margin: auto;
-    width: auto;
+    margin-bottom: 2%;
+    width: fit-content;
+    
 }
-
+/*----title----*/
 h1{
     text-align: center;
     font-size: 4.5em;
-    font-family: cursive;
-    margin: 1%;
+    font-family:cursive;
+    color: rgb(250, 232, 208);
+    border-style: hidden;
+    background-color: rgba(110, 96, 66, 0.747);
+    width: auto;
+    margin: auto;
+
 }
- 
+/*-----subheadings-----*/
 h2,h3{
     text-align: center;
     font-size: 2.8em;
     font-family: cursive;
     margin: 1% 3%;
     padding: 1% 2%;
-/*---need to work on padding and margins---*/
 }
-
-/*-----paragraph-----*/
+/*-----paragraphs/subtext-----*/
 p{
     text-align: center;
+    line-height: 1.5;
     font-size: 1.5em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 1%; 
@@ -68,25 +69,48 @@ p{
 }
 .solid{
     border-style: double;
-    background-color: rgb(173, 145, 96);
+    background-color: rgba(173, 145, 96, 0.846);
     padding: 1.5%;
     width: auto;
-    margin: 5%;
+     
+}
+/*-----img captions-----*/
+.subtext{
+    border-style: double;
+    background-color: rgba(187, 138, 110, 0.829);
+    /*---margin adjustments for caption spacing---*/
+    margin-bottom: 8%;
 }
 
 /*-----images-----*/
-/*---need to center images---*/
-/*--adjust the images individually--*/
 .img{
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
-    display: block;
+
+}
+.img2{
+    max-width: 85%;
+    height: auto;
+    margin-top: 2%;
+
 }
 
-/*----layout----*/
-/*--do not know what to do--*/
+.img3{
+    width: fit-content;
+    height: auto;
+  
+}
+/*----centering images----*/
+div{
+    text-align: center;
+}
+/*----aside----*/
+aside{
+    border-style: double;
+    background-color: rgba(126, 72, 43, 0.88);
+    padding: auto;
+    width: auto;
+    margin-top: 15%;
+}
 
-header, section, article, aside {
-    padding: 0%;
-    margin: 0%;
-} 
+ 

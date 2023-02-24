@@ -1,0 +1,53 @@
+/*--import normalize.css--*/
+@import "normalize.css";
+/*--small screen--*/
+@media screen and (max-width: 600px) {
+    /*-first grid column-*/
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(43, 86, 86);
+        padding: 5%;
+    }
+}
+/*--big screen--*/
+@media screen and (min-width: 600px) {
+    /*-second grid column-*/
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(34, 45, 29);
+        padding: 5%;
+    }
+}
+/*--image--*/
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*--grid item format--*/
+.grid-item{
+    background-color: rgb(117, 162, 133);
+    border: 2px dashed rgb(44, 41, 47);
+    padding: 5% 10%;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+/*--heading/paragraph--*/
+h2, p{
+    color: rgb(33, 29, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(142, 142, 87);    
+}
+/*--text styling for heading--*/
+.headtext{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/*--text styling for paragraph--*/
+.text {
+    padding: 1%;
+    margin: 5%;
+}

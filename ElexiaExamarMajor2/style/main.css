@@ -1,0 +1,155 @@
+/*imports normalize*/
+@import "normalize.css";
+
+/*top nav bar styling*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    border: 2px solid rgb(221, 213, 226); 
+    background-image: url(../assets/images/hydrothermal\ nav\ background.jpg);
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(221, 213, 226);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav a:hover{
+    background-color: rgb(23, 21, 19);
+}
+
+/*background style*/
+body{
+    background-color: rgb(27, 27, 46);
+}
+
+/*typography*/
+h1{
+    color: rgb(221, 213, 226);
+    font-size: 4em;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 3px rgb(111, 82, 46);
+
+}
+h2{
+    color:rgb(221, 213, 226);
+    font-size: 3em;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 3px rgb(111, 82, 46);
+
+}
+article, p{
+    color:rgb(221, 213, 226);
+    font-size: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    text-shadow: 1px 2px 2px black;
+
+}
+/*images formatting*/
+img{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 7px;
+
+}
+ 
+/*media query for small screen*/
+@media only screen and (max-width: 600px){
+/*grid formatting*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-item{
+        background-color: rgb(31, 22, 37);
+        border: 12px solid rgb(246, 224, 255);
+        padding: 1.5%;
+        justify-content: center;
+    }
+ 
+}
+
+
+/*media query for medium screen*/
+@media only screen and (min-width: 600px){
+/*grid formatting*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-item{
+        background-color: rgb(15, 54, 83);
+        border: 12px solid rgb(165, 166, 189);
+        padding: 1.5%;
+        justify-content: center;
+    }
+
+/*additional grid adjustments*/
+    .wide{
+        grid-column: 1/span 2;
+    }
+      
+/*nav formatting*/
+    nav li{
+        display: inline-block;
+    } 
+    nav{
+        text-align: center;
+    } 
+/*image resize*/
+    .imgsize{
+        width: 70%;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*media query for large screen*/
+@media only screen and (min-width: 992px){
+/*grid formatting*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid-item{
+        background-color: rgb(29, 46, 55);
+        border: 12px solid rgb(40, 74, 87);
+        padding: 1.5%;
+        justify-content: center;
+    }
+/*additional grid adjustments*/
+    .wide{
+        grid-column: 1/span 2;
+    }
+    
+/*nav formatting*/
+    nav li{
+        display: inline-block;
+    } 
+    nav{
+        text-align: center;
+    }
+/*image resize*/
+    .imgsize{
+        width: 70%;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

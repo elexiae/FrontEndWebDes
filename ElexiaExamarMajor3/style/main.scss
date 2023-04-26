@@ -1,0 +1,48 @@
+/* requirements: three media queries, one background image, grids */
+
+//imports for variables and mixins
+@import "variables";
+@import "mixins";
+
+
+/* maybe add a partial for the text styling */
+
+//includes the mixin for grid format
+@include grid;
+
+
+body{
+    background-image: url(../style/assets/images/gradient.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: $hFontFamily;
+    font-size: $h1FontSize;
+    color: $fColor;
+}
+
+h2{
+    font-family: $hFontFamily;
+    font-size: $h2FontSize;
+    color: $fColor;
+    text-align: $h2TextAlign;
+}
+
+p{
+    font-family:  $pFontFamily;
+    font-size: $pFontSize;
+    color: $fColor;
+    padding: 1%;
+    margin: 2%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}

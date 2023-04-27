@@ -1,0 +1,156 @@
+// mixin for grid and img styling
+// grid styles for medium and large screens only
+// the grid style for small screen is in mixin.scss
+
+@mixin gridstyle{
+    /*medium screen*/
+    @media screen and (min-width: 600px){
+        .grid{
+            background-color: rgb(145, 144, 95);
+            gap: $gridGap;
+            padding: $gridPadding;
+        }
+        .grid-item1{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;
+        }
+        .grid-item2{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;   
+        }
+        .grid-item3{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;   
+        }
+        .grid-item4{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;        
+        }
+        .grid-item5{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;
+        }
+        .grid-item6{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;      
+        }
+        /*img styling*/
+        .img1{
+            width: 65%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        }
+          
+        .img2{
+            width: 65%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        }
+        
+        .img3{
+            width: 75%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        }
+        /* nav bar styling*/
+        nav{
+            text-align: center;
+        }
+        nav li{
+            display: inline-block;
+        }
+
+    }
+    /*large screen*/
+    @media screen and (min-width: 992px){
+        .grid{
+            background-color: rgb(138, 121, 81);
+            gap: $gridGap;
+            padding: $gridPadding;    
+        }
+        .grid-item1{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;  
+        }
+        .grid-item2{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;
+        }
+          
+        .grid-item3{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;          
+        }
+        .grid-item4{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;         
+        }
+        .grid-item5{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;      
+        }
+        .grid-item6{
+            background-color: $griditemBgcolor;
+            border: $borderstyle;
+            display: $griditemDisplay;
+            padding: $griditemPadding;          
+        }
+        /*img styling*/
+        .img1{
+            width: 35%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        } 
+        .img2{
+            width: 45%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        }
+        .img3{
+            width: 55%;
+            height: auto;
+            display: $imgDisplay;
+            margin-right: $imgMarginRight;
+            margin-left: $imgMarginLeft;
+        }
+        /* nav bar styling*/
+        nav{
+            text-align: center;
+        }
+        nav li{
+            display: inline-block;
+        }    
+    }
+}

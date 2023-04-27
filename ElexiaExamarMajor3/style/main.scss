@@ -1,48 +1,51 @@
-/* requirements: three media queries, one background image, grids */
-
 //imports for variables and mixins
 @import "variables";
 @import "mixins";
+@import "mixins2";
+@import "_textstyle";
 
-
-/* maybe add a partial for the text styling */
 
 //includes the mixin for grid format
 @include grid;
+@include gridstyle;
 
+ 
+/*nav bar styling*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+nav li{
+    border: 3px solid  rgb(26, 19, 19);
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: $textFontFamily;
+    font-size: 1em;
+    color: rgb(30, 26, 26);
+    text-shadow: 2px 3px 4px rgb(77, 64, 48)
+}
+
+nav a:hover{
+    background-color: rgba(208, 180, 119, 0.666);
+}
+
+/*body styling*/
 body{
-    background-image: url(../style/assets/images/gradient.jpeg);
+    background-image: url(../style/assets/images/gradientbackground.jpg);
     background-position: center;
     background-attachment: fixed;
 }
-
-h1{
-    font-family: $hFontFamily;
-    font-size: $h1FontSize;
-    color: $fColor;
-}
-
-h2{
-    font-family: $hFontFamily;
-    font-size: $h2FontSize;
-    color: $fColor;
-    text-align: $h2TextAlign;
-}
-
-p{
-    font-family:  $pFontFamily;
-    font-size: $pFontSize;
-    color: $fColor;
-    padding: 1%;
-    margin: 2%;
-}
-
+ 
+/*img styling*/
 img{
     width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
+    border-radius: 15px 50px;
 }

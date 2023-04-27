@@ -1,24 +1,20 @@
-/* requirement: five useful variables */
+/*grid styling*/
+$gridPadding: 14px;
+$gridGap: 12px;
 
-/* grid styling */
-$gridPadding: 12px;
+/*grid-item styling*/
+$griditemBgcolor: rgb(211, 199, 152);
+$borderstyle: 8px solid rgb(26, 19, 19);
+$griditemDisplay: block;
+$griditemPadding: 1.8%;
  
-/* grid-item styling */
-$giBorder: 5px solid rgb(67, 61, 58);
-  
+/*image styling*/
+$imgMarginLeft: auto;
+$imgMarginRight: auto;
+$imgDisplay: block;
 
-/* font styling */
-$hFontFamily: 'Zeyada', cursive;
-$h1FontSize: 3.5em;
-
- 
-$h2FontSize: 2.5em;
-$h2TextAlign: center;
-
-
-
-$pFontFamily: Arial;
-$pFontSize: 1.5em;
-
-
-$fColor: rgb(23, 20, 20);
+/*text styling*/
+$headerTextAlign: center;
+$headerFontFamily: 'Instrument Serif', serif;
+$textTAlign: center;
+$textFontFamily: 'Unna', serif;
